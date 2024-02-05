@@ -8,11 +8,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f4e4ba;
+  background-image: url("img.png");
+  background-size: cover;
+  font-size: 1.6rem;
 }
 
 .container {
-  background-color: #fff;
+  background-color: #fffefe;
   padding: 2rem;
   border-radius: 1rem;
   min-height: 45vh;
@@ -59,13 +61,13 @@ form input {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 6rem;
+  width: 7.5rem;
   border-radius: 0.5rem;
   border: 1px solid lightgray;
 }
 
 .select-container select {
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: auto;
 }
 
@@ -77,6 +79,9 @@ form button {
   height: 3rem;
   background-color: #af4d98;
   color: #fff;
-  font-size: 1.15rem;
+  font-size: 1.4rem;
   cursor: pointer;
+  font-weight: bold;
 }
+
+
