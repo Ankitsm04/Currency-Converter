@@ -5,6 +5,7 @@
 
 body {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -40,6 +41,14 @@ form input {
   height: 3rem;
   padding-left: 0.5rem;
 }
+.content{
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+  width: 200%;
+  font-size: rem;
+}
 
 .dropdown {
   display: flex;
@@ -70,7 +79,9 @@ form input {
   font-size: 1.5rem;
   width: auto;
 }
-
+.wrapper{
+  width: 50%;
+}
 .msg {
   margin: 2rem 0 2rem 0;
 }
