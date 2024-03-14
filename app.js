@@ -1,6 +1,6 @@
-const BASE_URL =
-  "https://openexchangerates.org/api/latest.json";
-const API_KEY = "7ae882fc18314c609abce3fb90cc7c52";
+$.get('https://openexchangerates.org/api/latest.json', {app_id: 'e031aec2a5d242a49ccc76e6426178a0'}, function(data) {
+    console.log(data);
+});
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("#submitBtn");
