@@ -1,5 +1,6 @@
 const BASE_URL =
-  "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
+  "https://openexchangerates.org/api/latest.json";
+const API_KEY = "7ae882fc18314c609abce3fb90cc7c52";
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("#submitBtn");
